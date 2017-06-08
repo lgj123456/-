@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hjm="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_blue_light"
+        />
+
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:id="@+id/bottom_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        hjm:tab_divider_height="5dp"
+        hjm:tab_font_size="12sp"
+        hjm:tab_img_font_padding="0dp"
+        hjm:tab_img_height="30dp"
+        hjm:tab_img_width="30dp"
+        hjm:tab_isshow_divider="true"
+        hjm:tab_padding_bottom="5dp"
+        hjm:tab_padding_top="8dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/movieView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+</LinearLayout>
